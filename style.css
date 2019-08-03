@@ -1,0 +1,38 @@
+p{
+    color:yellow;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(quizjpg.jpg);
+    background-size:cover;
+    height: auto;
+    background-position: center;
+}
+.Quiz{
+    border-style: solid;
+    border-width:3px;
+    border-color:black;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    text-align: center;
+    margin-top:10%;
+    margin-bottom:10%;
+    margin-left:29%;
+    margin-right:29%;
+    padding: 5%;
+    background-color:rgba(red, green, blue, alpha);
+     }
+     form{
+         align-content: left;
+     }
+#Results{
+    color: yellow;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.questions{ 
+    color:yellow;
+    margin-left:0;
+ align-content: center;
+ margin-left: 0;
+}

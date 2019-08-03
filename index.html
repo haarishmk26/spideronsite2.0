@@ -1,0 +1,48 @@
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <title>
+          MyquizApp
+      </title>
+      <div class="Quiz">
+       
+        <p id="p">
+          <div class="questions">
+          <form>
+            <input type="radio" id="ans1" name="radio" onclick="rsponse();"
+            name="ans" value="a">
+
+            <label id="an1" for="ans1"></label><br>
+            
+            <input type="radio" name="radio" onclick="rsponse();" id="ans2 radio"
+            name="ans" value="b">
+            
+            <label id="an2" for="ans2"></label><br>
+            
+            <input type="radio" name="radio" id="ans3 radio" onclick="rsponse();"
+            name="contact" value="c">
+            
+            <label id="an3" for="ans3"></label><br>
+          </div>
+          </form>
+        </p>
+        <button type="submit" id="Next" onclick="Createquestion();" class="btn btn-primary">Next</button>
+        <button type="submit" id="next" onclick="getresults();" class="btn btn-primary">Get Results</button>
+        <div id="Results">
+
+        </div>
+      </div>
+    </head>
+    <script src="squiz.js">
+    
+    </script>
+     //<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     //<script>
+     //$('#next').click(function(){
+     //$('.Next').animate({opacity:"toggle"},"slow")});
+     //</script>
+    <body>
+
+    </body>
+</html>
